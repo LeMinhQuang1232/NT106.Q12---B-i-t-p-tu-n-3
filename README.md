@@ -38,10 +38,10 @@ CREATE TABLE Users (
 
 #Hướng dẫn sử dung:
 Đăng ký tài khoản:
-  - Mở ứng dụng, chọn Register.
-  - Nhập Username, Email, Password và Confirm Password.
-  - Nếu hợp lệ → Lưu vào SQL Server.
+- Mở ứng dụng, chọn Register.
+- Nhập Username, Email, Password và Confirm Password.
+- Nếu hợp lệ → Lưu vào SQL Server.
 Đăng nhập:
-  - Nhập Email hoặc Username và Password.
-  - Nếu đúng → hiển thị màn hình MainForm với thông tin tài khoản.
+- Nhập Email hoặc Username và Password.
+- Nếu đúng → hiển thị màn hình MainForm với thông tin tài khoản.
 Đăng xuất/ Quay lại: Trong MainForm bấm nút Back để quay lại LoginForm.
