@@ -18,8 +18,8 @@
   - Kiểm tra hợp lệ của input (email, username, password)
 
 #Hướng dẫn cài đặt:
-    1. Cài đặt SQL Server và SQL Server Management Studio (SSMS)
-    2. Tạo cơ sở dữ liệu và bảng Users bằng script sau:
+    - Cài đặt SQL Server và SQL Server Management Studio (SSMS)
+    - Tạo cơ sở dữ liệu và bảng Users bằng script sau:
 CREATE DATABASE UserManagement;
 GO
 USE UserManagement;
@@ -30,18 +30,18 @@ CREATE TABLE Users (
     Email NVARCHAR(100) UNIQUE NOT NULL,
     Password NVARCHAR(64) NOT NULL
 );
-    3. Mở project bằng Visual Studio
-    4. Kiểm tra lại connection string trong các file LoginForm.cs, MainForm.cs, RegisterForm.cs để phù hợp với tên SQL Server instance của máy bạn:
+    - Mở project bằng Visual Studio
+    - Kiểm tra lại connection string trong các file LoginForm.cs, MainForm.cs, RegisterForm.cs để phù hợp với tên SQL Server instance của máy bạn:
         private string connectionString =
     "Data Source=DESKTOP-xxx\\SQLEXPRESS;Initial Catalog=UserManagement;Integrated Security=True;Encrypt=True;Trust Server Certificate=True";
 
 
 #Hướng dẫn sử dung:
 Đăng ký tài khoản:
-    1. Mở ứng dụng, chọn Register.
-    2. Nhập Username, Email, Password và Confirm Password.
-    3. Nếu hợp lệ → Lưu vào SQL Server.
+    - Mở ứng dụng, chọn Register.
+    - Nhập Username, Email, Password và Confirm Password.
+    - Nếu hợp lệ → Lưu vào SQL Server.
 Đăng nhập:
-    1. Nhập Email hoặc Username và Password.
-    2. Nếu đúng → hiển thị màn hình MainForm với thông tin tài khoản.
+    - Nhập Email hoặc Username và Password.
+    - Nếu đúng → hiển thị màn hình MainForm với thông tin tài khoản.
 Đăng xuất/ Quay lại: Trong MainForm bấm nút Back để quay lại LoginForm.
