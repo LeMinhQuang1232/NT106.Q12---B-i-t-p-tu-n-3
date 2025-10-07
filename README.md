@@ -37,15 +37,10 @@ CREATE TABLE Users (
 
 
 #Hướng dẫn sử dụng
-
 Đăng ký tài khoản:
-
 - Mở ứng dụng, chọn Register.
-
 - Nhập Username, Email, Password và Confirm Password.
-
 - Nếu hợp lệ → Lưu vào SQL Server.
-
 Đăng nhập:
 - Nhập Email hoặc Username và Password.
 
