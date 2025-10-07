@@ -2,7 +2,6 @@
 #Thông tin nhóm
   -  MSSV: 24521518 - Lê Minh Sang
   -  MSSV: 24521466 - Lê Minh Quang
-  -  MSSV: 24521100 - Đoàn Nguyễn Hà Nam
 
 #Mô tả
 Ứng dụng Windows Forms (C#) kết nối với SQL Server cho phép người dùng:
