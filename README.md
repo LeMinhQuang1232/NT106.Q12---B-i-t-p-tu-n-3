@@ -47,7 +47,6 @@ CREATE TABLE Users (
 - Nếu hợp lệ → Lưu vào SQL Server.
 
 Đăng nhập:
-
 - Nhập Email hoặc Username và Password.
 
 - Nếu đúng → hiển thị màn hình MainForm với thông tin tài khoản.
